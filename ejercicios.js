@@ -45,7 +45,10 @@ function contarCaracter(palabra){
 console.log(contarCaracter(['casa', 'mamamia']));
 
 //Ejercicio 4
-
+String.prototype.reverse = function() {
+  return this.split("").reverse().join("");
+};
+console.log("roma".reverse()); // amor
 //Ejercicio 5
 
 //Ejercicio 6: Cuenta cuantas vocales tiene un array de palabras
