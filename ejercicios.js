@@ -27,6 +27,12 @@ for (var i=0;i<numero.length;i++){
 
 //Ejercicio 2
 
+
+function potencia(m,n){
+  var r= Math.pow(m,n);
+  console.log(r);
+
+}
 //Ejercicio 3
 function contarCaracter(palabra){
   var arr = [];
