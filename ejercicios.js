@@ -2,6 +2,12 @@
 
 //Ejercicio 2
 
+
+function potencia(m,n){
+  var r= Math.pow(m,n);
+  console.log(r);
+
+}
 //Ejercicio 3
 
 //Ejercicio 4
